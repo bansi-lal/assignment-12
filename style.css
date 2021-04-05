@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	
+}
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+header {
+	height: 70px;
+	background: lightgray;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+.logo {
+    position: relative;
+    top: -20px;
+   padding: 0;
+	width: 30%;
+	float: left;
+	line-height: 100px;
+}
+.logo a {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: poppins;
+    color: red;
+}
+nav {
+	float: right;
+	line-height: 100px;
+    position: relative;
+    top: -20px;
+}
+nav a {
+	text-decoration: none;
+	font-family: poppins;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px;
+    color: black;
+}
+ .one{
+     background-color: lightgray;
+ }
+
+.content{
+    background-color: lightgray;
+   padding-top: 50px;
+    margin-left: 60px;
+    height: 175px;
+    
+}
+
+.content h1{
+   line-height: 80px;
+   color: red;
+}
+
+
+.content H5{
+    text-decoration: underline;
+}
+
+.content img{
+    position: relative;
+    top: -140px;
+    left: 700px;
+    border-radius: 90px;
+    background-color: lightgrey;
+    
+}
+
+
+.footer{
+    width: 100%;
+    height: 120px;
+    border: 0px solid black;
+    background-color: yellowgreen;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 50px;
+    
+}
+
+.footer ul li a{
+    text-align: center;
+    padding: 60px; 
+    color: white;
+}
+
+
+.footer ul li a i{
+  position: relative;
+  top: -20px;
+  left: 46px;
+  font-size: 20px;
+}
